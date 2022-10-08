@@ -1,4 +1,4 @@
-# Double My TPS
+# 【初版】Double My TPS
 
 成员: @flowbehappy, @iosmanthus, @pingyu, @tangenta (in alphabetical order)
 
