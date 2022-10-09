@@ -4,7 +4,7 @@
 
 ## 项目介绍
 
-一键让 TiDB 的 TPS 翻倍
+一键让 TiDB 的 TPS 翻倍，`set tidb_performance_mode = "double_my_tps";`
 
 ## 背景&动机
 
