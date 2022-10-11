@@ -34,7 +34,7 @@
 
 ### 提高 CPU 的使用效率
 
-以 TiDB Cloud 的标准集群 1 TiDB（8C） + 3 TiKV（8C，gp3 EBS） 为例，我们发现当并发数上去之后，系统的瓶颈是 CPU，比如 sysbench oltp_point_select，TiDB 100%，TiKV 30%。所以优化的重点之一在于让 TiDB 和 TiKV 能用更少的 CPU cycle 干更多的活。在 AP 的世界中，主要有两种流派来达到类似的效果：
+以 TiDB Cloud 的小集群 1 TiDB（8C） + 3 TiKV（8C，gp3 EBS） 为例，我们发现当并发数上去之后，系统的瓶颈是 CPU，比如 sysbench oltp_point_select，TiDB 100%，TiKV 30%。所以优化的重点之一在于让 TiDB 和 TiKV 能用更少的 CPU cycle 干更多的活。在 AP 的世界中，主要有两种流派来达到类似的效果：
 
 1. Code Generation
 2. Vectorization
