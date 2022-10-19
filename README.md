@@ -4,7 +4,7 @@
 
 ## 项目介绍
 
-一键让 TiDB 的 QPS 翻倍，`set tidb_performance_mode = "double_my_qps";`
+一键让 TiDB 的 QPS 翻倍，`set tidb_double_my_qps = 'ON';`
 
 ## 背景&动机
 
@@ -24,13 +24,12 @@
 1. 通用的，特别是可以提高 QPS 的
 2. 会劣化其他性能指标的（比如 P99 latency），但是可以提高 QPS 的
 
-为了方便对比效果，我们把这些优化打包到一个开关中：`set tidb_performance_mode = "double_my_qps";`
+为了方便对比效果，我们把这些优化打包到一个开关中：`set tidb_double_my_qps = 'ON';`
 
 ### Pipeline 一切
 让数据库读写操作的各个过程，尽可能并行执行，充分利用 CPU。已知可以优化的点：
 
 1. https://github.com/tikv/tikv/issues/8752 Fully pipelined push-based query engine of TiKV
-2. 
 
 ### 提高 CPU 的使用效率
 
