@@ -2,6 +2,12 @@
 
 成员: @flowbehappy, @iosmanthus, @pingyu, @tangenta (in alphabetical order)
 
+## 项目链接
+
+https://github.com/tangenta/tidb/tree/batch-point-get
+
+[第一次提交 commit](https://github.com/tangenta/tidb/commit/918de5e5fc3d85797d8dc720ce7396090b9a0863)。
+
 ## 项目介绍
 
 一键让 TiDB 的 QPS 翻倍，`set tidb_double_my_qps = 'ON';`
